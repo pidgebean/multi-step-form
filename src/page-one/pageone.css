@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+.step-one{
+    padding-top: 20px;
+    width: 600px;
+    margin-left: 300px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.desc{
+    color: hsl(231, 11%, 63%);
+    margin-left: 0px;
+}
+
+.step-one .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-field, .email-field, .phone-field{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    /* border: 2px solid black; */
+    /* margin-bottom: 10px; */
+}
+
+.error{
+    color: red;
+    display: none;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+input:invalid ~ .error{
+    display: block;
+    color: red;
+}
+input:invalid{
+    border: 2px solid red;
+}
+
+.button-page-1{
+    background-color: hsl(243, 100%, 62%);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-left: 390px;
+    cursor: pointer;
+}
+
+
+  

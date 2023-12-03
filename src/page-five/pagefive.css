@@ -1,0 +1,14 @@
+.step-five{
+    margin-left: 290px;
+    margin-top: 100px;
+    text-align: center;
+    width: 450px;
+}
+
+.step-five h3{
+    font-size: 30px;
+}
+
+.step-five p{
+    color: hsl(231, 11%, 63%);
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+.step-three{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 300px;
+}
+
+.step-three h2{
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+
+.step-three p{
+    color: hsl(231, 11%, 63%);
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid hsl(231, 11%, 63%);
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.choice .check:checked{
+    border: 2px solid hsl(243, 100%, 62%);
+}
+
+.choice input{
+    margin-top: 10px;
+}
+
+.choice input:checked{
+    border: 2px solid hsl(243, 100%, 62%);
+}
+
+.choice .desc .title{
+    color: black;
+    font-size: 20px;
+}
+
+.choice .price-1{
+    color: red;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.choice .price-2{
+    color: red;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.choice .price-3{
+    color: red;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.two-buttons-3{
+    margin-top: 160px;
+    /* padding: 10px; */
+}
+
+.back-btn-3{
+    margin-right: 300px;
+    padding: 10px;
+    color: hsl(231, 11%, 63%);
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.next-btn-3{
+    padding: 10px;
+    background-color: hsl(243, 100%, 62%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

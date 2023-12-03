@@ -1,0 +1,104 @@
+.step-four{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 300px;
+}
+
+.step-four p{
+    color: hsl(231, 11%, 63%);
+}
+
+.step-four .account-info{
+    width: 400px;
+    background-color: hsla(229, 24%, 87%, 0.5);
+    padding: 10px;
+}
+
+.account-info .plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plan-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-info a{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    cursor: pointer;
+}
+
+.plan-price{
+    margin-right: 10px;
+    color: hsl(213, 96%, 18%);
+    font-weight: 700;
+}
+
+
+.step-four .add-ons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-ons .desc{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.add-ons .price{
+    width: 100px;
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tot-desc{
+    color: hsl(231, 11%, 63%);
+}
+
+.tot-price{
+    color: hsl(243, 100%, 62%);
+    font-weight: 700;
+    margin-right: 100px;
+}
+
+.two-buttons-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+
+.confirm-four{
+    background-color: hsl(243, 100%, 62%);
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 50px;
+    cursor: pointer;
+    /* margin-left: -50px; */
+}
+
+.back-four{
+    width: 100px;
+    background-color: transparent;
+    color: hsl(231, 11%, 63%);
+    padding: 10px;
+    margin-left: -25px;
+    border: none;
+    cursor: pointer;
+}
